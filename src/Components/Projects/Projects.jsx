@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
@@ -7,16 +7,16 @@ const Projects = () => {
       <h1 className="text-2xl md:text-4xl text-white font-bold">Projects</h1>
       <div className="py-12 px-8 flex flex-wrap gap-5">
         <ProjectCard
-          title="Blogging Website"
-          main="this is a bloggin website created in next js and used some component library used some component library"
+          title="Online Food Ordering"
+          main="this is an Online Food Ordering created in react js and used some component library used some component library"
         />
         <ProjectCard
-          title="Youtue Clone"
-          main="this is a bloggin website created in next js and used some component library used some component library"
+          title="Admin Dash Board Frequency"
+          main="this is a Admin dash Board created in react js and used some component library used some component library and menu "
         />
         <ProjectCard
-          title="Netflix Clone"
-          main="this is a blogging website created this ijsdjf l in next js and used some component library used some component library"
+          title="Shoping Online Cloths"
+          main="this is a Shoping Online Cloths site created this in react js and used some component library used some component library"
         />
       </div>
     </div>

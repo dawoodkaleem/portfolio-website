@@ -20,7 +20,7 @@ const Experience = () => {
           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
             <FaReact color="#61DAFB" size={50} />
           </span>
-          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
+          <span className="p-3 bg-green-950 flex items-center rounded-2xl">
             <FaJs color="#F7DF1E" size={50} />
           </span>
           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
@@ -34,10 +34,10 @@ const Experience = () => {
           </span>
         </div>
         <div>
-          <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
+          {/* <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
             <FaGoogle color="#4285F4" size={50} />
             <span className="text-white">
-              <h2 className="leading-tight">Software Engineer , Google</h2>
+              <h2 className="leading-tight">Software Engineer , </h2>
               <p className="text-sm leading-tight font-thin">
                 Sept 2023 - Present
               </p>
@@ -46,13 +46,15 @@ const Experience = () => {
                 <li>- Senior SDE-developer</li>
               </ul>
             </span>
-          </div>
+          </div> */}
           <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg  p-4 items-center">
-            <RiNetflixFill color="#E50914" size={50} />
+            {/* <RiNetflixFill color="#E50914" size={50} /> */}
             <span className="text-white">
-              <h2 className="leading-tight">Software Engineer, Google</h2>
+              <h2 className="leading-tight">
+                Unity Game developer, Game Forest
+              </h2>
               <p className="text-sm leading-tight font-thin">
-                Sept 2023 - Present
+                Sep 2022 - April 2023
               </p>
               <ul className="text-sm p-2">
                 <li>- Work as software developer.</li>
@@ -61,11 +63,13 @@ const Experience = () => {
             </span>
           </div>
           <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg  p-4 items-center">
-            <FaAmazon color="#FF9900" size={50} />
+            {/* <FaAmazon color="#FF9900" size={50} /> */}
             <span className="text-white">
-              <h2 className="leading-tight">Software Engineer, Google</h2>
+              <h2 className="leading-tight">
+                Software Engineer , CCjk Technologies
+              </h2>
               <p className="text-sm leading-tight font-thin">
-                Sept 2023 - Present
+                May 2023 - Aug 2024
               </p>
               <ul className="text-sm p-2">
                 <li>- Work as software developer.</li>
